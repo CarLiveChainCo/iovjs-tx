@@ -10,7 +10,18 @@
 This package is based on ethereumjs-tx v1.3.7 with changes to support transaction manipulating in iov blockchain. 
 
 # INSTALL
-`npm install git://git@github.com:CarLiveChainCo/iovjs-tx.git`
+`npm install https://github.com/CarLiveChainCo/iovjs-tx.git`
+
+
+npm package.json can use the dependencies by settting as follows:
+
+```
+  "dependencies": {
+    ...,
+    "iovjs-tx": "git+https://github.com/CarLiveChainCo/iovjs-tx.git",
+    ...
+  }
+```
 
 # USAGE
 
